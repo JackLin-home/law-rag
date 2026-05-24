@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+dashscope
+langchain-community
+langchain-neo4j
+langchain-chroma
+langchain-core
+pymysql
+meilisearch
+chromadb
+requests
+pydantic

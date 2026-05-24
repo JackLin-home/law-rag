@@ -1,0 +1,48 @@
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+chroma_db/
+chroma_data/
+data.ms/
+*.exe
+
+
+# 运行时数据
+agent_demo2/chat_histories/
+agent_demo2/database/local_meili_demo.json
+
+# IDE
+.vscode/
+.idea/
+
+# Laravel
+law_RAG_agent/legal-web/vendor/
+law_RAG_agent/legal-web/node_modules/
+law_RAG_agent/legal-web/public/build/
+law_RAG_agent/legal-web/public/hot/
+law_RAG_agent/legal-web/public/storage
+law_RAG_agent/legal-web/storage/*.key
+law_RAG_agent/legal-web/storage/logs/*.log
+law_RAG_agent/legal-web/storage/framework/cache/data/*
+law_RAG_agent/legal-web/storage/framework/sessions/*
+law_RAG_agent/legal-web/storage/framework/views/*
+!law_RAG_agent/legal-web/storage/framework/views/.gitignore
+!law_RAG_agent/legal-web/storage/framework/cache/.gitignore
+!law_RAG_agent/legal-web/storage/framework/sessions/.gitignore
+!law_RAG_agent/legal-web/storage/logs/.gitignore
+law_RAG_agent/legal-web/.phpunit.cache/
+law_RAG_agent/legal-web/bootstrap/cache/*.php
+!law_RAG_agent/legal-web/bootstrap/cache/.gitignore
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
