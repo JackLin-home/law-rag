@@ -1,0 +1,12 @@
+网上咨询 JSONL 数据字典
+========================
+字段
+--------
+title            咨询标题
+consult_id       咨询唯一标识ID
+consult_category 咨询分类（如特种设备监察、消保）
+consult_time     咨询时间
+reply_unit       答复单位
+reply_time       答复时间
+question         咨询问题内容
+answer           答复内容

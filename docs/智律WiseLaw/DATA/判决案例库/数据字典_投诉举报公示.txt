@@ -1,0 +1,13 @@
+12315 投诉举报公示 JSONL 数据字典
+===================================
+字段
+--------
+enterprise_name  被投诉企业名称
+city_code        行政区划代码
+issue_type       问题类型（具体商品/服务类别）
+case_type        投诉举报类别（如食品安全、虚假宣传等）
+accept_dept      受理部门
+reg_time         登记时间（YYYY-MM-DD HH:MM:SS）
+end_time         办结时间（YYYY-MM-DD HH:MM:SS）
+public_time      公示时间（YYYY-MM-DD HH:MM:SS）
+process_result   处理结果（达成调解协议、双方自行和解、投诉人撤回投诉等）

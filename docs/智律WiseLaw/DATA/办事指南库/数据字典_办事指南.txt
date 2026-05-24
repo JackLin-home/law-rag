@@ -1,0 +1,16 @@
+一网通办办事指南 JSONL 数据字典
+================================
+字段
+--------
+title                   事项标题（具体办理事项名称）
+item_name               主事项名称（事项的上级分类）
+subitem_name            二级事项名称（事项的下级分类）
+st_id                   事项ID（政务编码）
+guide_id                指南唯一标识（UUID）
+application_materials   申请材料（填报须知、形式标准、材料目录）
+rights_obligations      权利义务（申请人的法定权利与义务）
+handling_procedures     办理流程（申请与受理→审查与决定→颁证与送达，含时限/人员/标准）
+establishment_basis     设立依据（法律法规依据，名称/条款/内容）
+faq                     常见问题（常见错误示例及正确做法）
+approved_documents      审批证件（审批结果名称、类型、有效期限、送达方式、送达期限）
+quantitative_restriction 数量限制（是否存在行政许可数量限制）

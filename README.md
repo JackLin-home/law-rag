@@ -9,6 +9,7 @@
 
 ```
 law_rag/
+├── docs/智律WiseLaw/         # 项目介绍 PPT + 数据字典说明
 ├── agent_demo2/              # Python AI 后端（FastAPI）
 │   ├── legal_agent.py        # 主服务：聊天 API、知识库同步
 │   ├── build_knowledge_base.py   # 从 MySQL 构建 Chroma + Meilisearch 索引
@@ -24,6 +25,12 @@ law_rag/
         ├── database/migrations/
         └── .env.example
 ```
+
+---
+
+## 项目文档
+
+- [智律 WiseLaw 项目介绍与数据说明](docs/智律WiseLaw/README.md) — 含演示 PPT 及各知识库数据字典
 
 ---
 

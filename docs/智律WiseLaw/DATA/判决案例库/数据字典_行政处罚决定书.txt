@@ -1,0 +1,9 @@
+行政处罚决定书 JSONL 数据字典
+==============================
+字段
+--------
+docid              文书唯一标识ID
+party_name         当事人名称（被处罚企业/个人）
+penalty_authority  处罚机关
+penalty_type       处罚种类
+penalty_basis      处罚依据（法律法规条款）
