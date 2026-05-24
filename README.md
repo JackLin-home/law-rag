@@ -5,10 +5,35 @@
 
 ---
 
+## 项目演示
+
+### 首页
+
+![智律 WiseLaw 首页](docs/demo/01-homepage.png)
+
+### AI 法律咨询
+
+![AI 聊天咨询界面](docs/demo/03-chat.png)
+
+### 管理后台
+
+![行政处罚决定书管理](docs/demo/02-admin-penalty-decisions.png)
+
+![咨询问答编辑](docs/demo/05-admin-consult-faq-edit.png)
+
+### 数据层
+
+![MySQL 咨询问答数据（consult_faqs）](docs/demo/04-database-consult-faqs.png)
+
+> 演示截图位于 `docs/demo/`，可自行替换或追加。在 Markdown 中插入图片语法：`![说明文字](图片相对路径.png)`
+
+---
+
 ## 项目结构
 
 ```
 law_rag/
+├── docs/demo/                # 项目演示截图
 ├── docs/智律WiseLaw/         # 项目介绍 PPT + 数据字典说明
 ├── agent_demo2/              # Python AI 后端（FastAPI）
 │   ├── legal_agent.py        # 主服务：聊天 API、知识库同步
